@@ -67,7 +67,7 @@ const App = ({classes}) => {
     const [isValidBackendEndpoint, setIsValidBackendEndpoint] = useState(true);
     const [generatedImages, setGeneratedImages] = useState([]);
     const [apiError, setApiError] = useState('')
-    const [imagesPerQuery, setImagesPerQuery] = useState(2);
+    const [imagesPerQuery, setImagesPerQuery] = useState(3);
     const [queryTime, setQueryTime] = useState(0);
 
     const imagesPerQueryOptions = 10
